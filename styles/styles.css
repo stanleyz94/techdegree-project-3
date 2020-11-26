@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Merriweather', serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+select:required:invalid {
+    color: 	#696969;
+  }
+option[value=""][disabled] {
+    display: none;
+  }
+
+option {
+    color: #000000;
+  }
+
+
+footer {
+    text-align: center;
+    padding-bottom: 400px;
+} 
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+legend {
+    
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+    
+   
+    
+}
+
+h1 {
+    color: white;
+    background-color: #252f33;
+    margin: 0 0 40px 0;
+    width: 100%;
+    height: 3.25em;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+label {
+    display: block;
+    color: rgb(113, 123, 134);
+    margin: 10px 0;
+    
+  }
+
+p {
+      color: rgb(113, 123, 134);
+  }
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    padding: 15px;
+    width:100%;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 5px;
+
+    
+}
+
+
+label[for*="news"],
+label[for*="format"] {
+
+    display:inline-block;
+    margin-left: 10px;
+}
+
+
+input::placeholder {
+    text-align: right;
+}
+
+
+input:focus, textarea:focus {
+    outline-color: #7794a1;
+}
+
+
+
+fieldset {
+    border:none;
+    margin: 25px 0;
+    padding: 0;
+  
+    
+  }
+
+
+textarea {
+
+    
+    height: 100px;
+
+  }
+
+
+button {
+
+    text-align: center;
+    color: #fff;
+    background-color: rgb(54, 151, 151);
+    padding: 35px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    
+
+
+  }
+
+.hr1 {
+    border: 2px solid black;
+    margin: 3px auto;
+        
+        
+        
+
+        
+        
+    }
+.hr2 {
+    border: 1px solid black;
+    margin: 0 auto;
+    }
+
+form {
+
+    margin: 0 auto;
+}
+
+#zip {
+    width: 25%;
+
+}
+
+/* ================================================= 
+  Media Queries
+==================================================== */
+
+
+
+@media (min-width: 768px){
+
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+
+    .flx {
+        display: flex;
+        justify-content: flex-start;
+        padding: .5em;
+
+        
+        
+
+    }
+    .flx > label {
+        flex: 1;
+ }
+   
+    .flx > input, select {
+        flex: 2;
+ }
+
+    #zip {
+        flex: 0 20%;
+        margin-right: 48.5%;
+    }
+
+
+    button{
+        padding: 20px 0;
+
+   }
+
+    
+
+ }
+
